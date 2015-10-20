@@ -1,0 +1,9 @@
+{
+  "scope": "source.apex",
+  "completions":
+  [
+    {"trigger": "list\tCreate List", "contents": "List<${1:Object}> ${2:listName} = new List<$1>();"},
+    {"trigger": "map\tCreate Map", "contents": "Map<${1:Object}, ${2:Object}> ${3:mapName} = new List<$1, $2>();"},
+    {"trigger": "set\tCreate Set", "contents": "Set<${1:Object}> ${2:setName} = new Set<$1>();"}
+  ]
+}
